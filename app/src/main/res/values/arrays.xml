@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sample_rate_table">
+        <item>16000Hz</item>
+        <item>24000Hz</item>
+        <item>32000Hz</item>
+        <item>44100Hz</item>
+        <item>48000Hz</item>
+    </string-array>
+    <integer-array name="sample_rate">
+        <item>16000</item>
+        <item>24000</item>
+        <item>32000</item>
+        <item>44100</item>
+        <item>48000</item>
+    </integer-array>
+    <string-array name="lang_name">
+        <item>English</item>
+        <item>French</item>
+        <item>Spanish</item>
+        <item>Chinese</item>
+    </string-array>
+    <string-array name="model_name">
+        <item>model-en-us</item>
+        <item>model-fr</item>
+        <item>model-es</item>
+        <item>model-cn</item>
+    </string-array>
+</resources>

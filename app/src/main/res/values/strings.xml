@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Vosk Speech Recognition Utility</string>
+    <string name="recognize_file">Recognize File</string>
+    <string name="recognize_microphone">Recognize Microphone</string>
+    <string name="recognize_loopback">Recognize Internal Audio</string>
+    <string name="stop_microphone">Stop Microphone</string>
+    <string name="stop_loopback">Stop Internal Audio</string>
+    <string name="preparing">Preparing the recognizer\n</string>
+    <string name="ready">Ready\n</string>
+    <string name="failed">Failed to init recognizer %s\n</string>
+    <string name="elapsed">Result %s elapsed %d milliseconds\n</string>
+    <string name="starting">Starting\n</string>
+    <string name="say_something">Say something\n</string>
+    <string name="stop_file">Stop File</string>
+    <string name="pause">Pause</string>
+    <string name="continueRecognition">Continue</string>
+    <string name="sample_rate">Sample Rate: (Invalid for WAV file mode)</string>
+    <string name="recog_language">Recognition Language:</string>
+    <string name="txt_hover_lrc">Show hover lyrics box on desktop</string>
+
+</resources>
