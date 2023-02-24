@@ -1,4 +1,4 @@
-package org.vosk;
+package org.vosk.utils;
 
 import com.sun.jna.PointerType;
 

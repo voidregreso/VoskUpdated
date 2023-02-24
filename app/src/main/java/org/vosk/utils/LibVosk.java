@@ -1,14 +1,7 @@
-package org.vosk;
+package org.vosk.utils;
 
 import com.sun.jna.Native;
-import com.sun.jna.Library;
-import com.sun.jna.Platform;
 import com.sun.jna.Pointer;
-import java.io.File;
-import java.io.InputStream;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.StandardCopyOption;
 
 public class LibVosk {
 

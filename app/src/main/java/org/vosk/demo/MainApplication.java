@@ -2,9 +2,10 @@ package org.vosk.demo;
 
 import android.app.Application;
 import android.content.Intent;
+import android.widget.TextView;
 
-import org.vosk.Recognizer;
-import org.vosk.android.RecognitionListener;
+import org.vosk.utils.Recognizer;
+import org.vosk.utils.RecognitionListener;
 
 public class MainApplication extends Application {
 
@@ -14,6 +15,7 @@ public class MainApplication extends Application {
     private float sampleRate = 16000.f;
     private RecognitionListener listener;
     private int timeOut = -1;
+    private TextView subTextView;
 
     public void onCreate() {
         super.onCreate();
@@ -65,5 +67,13 @@ public class MainApplication extends Application {
 
     public void setTimeOut(int timeOut) {
         this.timeOut = timeOut;
+    }
+
+    public TextView getSubTextView() {
+        return subTextView;
+    }
+
+    public void setSubTextView(TextView subTextView) {
+        this.subTextView = subTextView;
     }
 }

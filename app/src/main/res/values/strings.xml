@@ -19,5 +19,7 @@
     <string name="sample_rate">Sample Rate: (Invalid for WAV file mode)</string>
     <string name="recog_language">Recognition Language:</string>
     <string name="txt_hover_lrc">Show hover lyrics box on desktop</string>
+    <string name="check_suspended_window_perm">Please enable hover window permission</string>
+    <string name="ready_hover_tip">Now we\'re ready for recognition</string>
 
 </resources>
